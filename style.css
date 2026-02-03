@@ -1,0 +1,8 @@
+
+body { background:#0b0b14; color:white; font-family:Arial; }
+.app { max-width:800px; margin:auto; padding:20px; }
+#chat { height:400px; overflow:auto; border:1px solid #333; padding:10px; margin:10px 0; }
+.msg { margin:6px 0; }
+.user { color:#7aa2ff; }
+.bot { color:#9cff9c; }
+input, select, button { padding:8px; background:#111; color:white; border:1px solid #333; }
