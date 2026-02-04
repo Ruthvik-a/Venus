@@ -6,7 +6,7 @@ async function send(){
   const provider = document.getElementById("provider").value;
   addMsg("user", msg);
 
-  const res = await fetch("http://localhost:8000/chat",{
+  const res = await fetch("https://venus-12t4.onrender.com/chat",{
     method:"POST",
     headers:{"Content-Type":"application/json"},
     body: JSON.stringify({message:msg, model:model, provider:provider})
